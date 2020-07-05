@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A09BA9D24B1FBF500F63A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BA9C24B1FBF500F63A45 /* AppDelegate.swift */; };
+		8A09BA9F24B1FBF500F63A45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BA9E24B1FBF500F63A45 /* SceneDelegate.swift */; };
+		8A09BAA124B1FBF500F63A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BAA024B1FBF500F63A45 /* ViewController.swift */; };
+		8A09BAA424B1FBF500F63A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A09BAA224B1FBF500F63A45 /* Main.storyboard */; };
+		8A09BAA624B1FBFD00F63A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A09BAA524B1FBFD00F63A45 /* Assets.xcassets */; };
+		8A09BAA924B1FBFD00F63A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A09BAA724B1FBFD00F63A45 /* LaunchScreen.storyboard */; };
+		8A09BAB424B1FBFE00F63A45 /* GeoJsonSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BAB324B1FBFE00F63A45 /* GeoJsonSampleTests.swift */; };
+		8A09BABF24B1FBFE00F63A45 /* GeoJsonSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BABE24B1FBFE00F63A45 /* GeoJsonSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A09BAB024B1FBFE00F63A45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A09BA9124B1FBF500F63A45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A09BA9824B1FBF500F63A45;
+			remoteInfo = GeoJsonSample;
+		};
+		8A09BABB24B1FBFE00F63A45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A09BA9124B1FBF500F63A45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A09BA9824B1FBF500F63A45;
+			remoteInfo = GeoJsonSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A09BA9924B1FBF500F63A45 /* GeoJsonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoJsonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A09BA9C24B1FBF500F63A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A09BA9E24B1FBF500F63A45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8A09BAA024B1FBF500F63A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A09BAA324B1FBF500F63A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A09BAA524B1FBFD00F63A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A09BAA824B1FBFD00F63A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A09BAAA24B1FBFD00F63A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A09BAAF24B1FBFE00F63A45 /* GeoJsonSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoJsonSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A09BAB324B1FBFE00F63A45 /* GeoJsonSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJsonSampleTests.swift; sourceTree = "<group>"; };
+		8A09BAB524B1FBFE00F63A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A09BABA24B1FBFE00F63A45 /* GeoJsonSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoJsonSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A09BABE24B1FBFE00F63A45 /* GeoJsonSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJsonSampleUITests.swift; sourceTree = "<group>"; };
+		8A09BAC024B1FBFE00F63A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A09BA9624B1FBF500F63A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A09BAAC24B1FBFE00F63A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A09BAB724B1FBFE00F63A45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A09BA9024B1FBF500F63A45 = {
+			isa = PBXGroup;
+			children = (
+				8A09BA9B24B1FBF500F63A45 /* GeoJsonSample */,
+				8A09BAB224B1FBFE00F63A45 /* GeoJsonSampleTests */,
+				8A09BABD24B1FBFE00F63A45 /* GeoJsonSampleUITests */,
+				8A09BA9A24B1FBF500F63A45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A09BA9A24B1FBF500F63A45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A09BA9924B1FBF500F63A45 /* GeoJsonSample.app */,
+				8A09BAAF24B1FBFE00F63A45 /* GeoJsonSampleTests.xctest */,
+				8A09BABA24B1FBFE00F63A45 /* GeoJsonSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A09BA9B24B1FBF500F63A45 /* GeoJsonSample */ = {
+			isa = PBXGroup;
+			children = (
+				8A09BA9C24B1FBF500F63A45 /* AppDelegate.swift */,
+				8A09BA9E24B1FBF500F63A45 /* SceneDelegate.swift */,
+				8A09BAA024B1FBF500F63A45 /* ViewController.swift */,
+				8A09BAA224B1FBF500F63A45 /* Main.storyboard */,
+				8A09BAA524B1FBFD00F63A45 /* Assets.xcassets */,
+				8A09BAA724B1FBFD00F63A45 /* LaunchScreen.storyboard */,
+				8A09BAAA24B1FBFD00F63A45 /* Info.plist */,
+			);
+			path = GeoJsonSample;
+			sourceTree = "<group>";
+		};
+		8A09BAB224B1FBFE00F63A45 /* GeoJsonSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A09BAB324B1FBFE00F63A45 /* GeoJsonSampleTests.swift */,
+				8A09BAB524B1FBFE00F63A45 /* Info.plist */,
+			);
+			path = GeoJsonSampleTests;
+			sourceTree = "<group>";
+		};
+		8A09BABD24B1FBFE00F63A45 /* GeoJsonSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A09BABE24B1FBFE00F63A45 /* GeoJsonSampleUITests.swift */,
+				8A09BAC024B1FBFE00F63A45 /* Info.plist */,
+			);
+			path = GeoJsonSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A09BA9824B1FBF500F63A45 /* GeoJsonSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A09BAC324B1FBFE00F63A45 /* Build configuration list for PBXNativeTarget "GeoJsonSample" */;
+			buildPhases = (
+				8A09BA9524B1FBF500F63A45 /* Sources */,
+				8A09BA9624B1FBF500F63A45 /* Frameworks */,
+				8A09BA9724B1FBF500F63A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoJsonSample;
+			productName = GeoJsonSample;
+			productReference = 8A09BA9924B1FBF500F63A45 /* GeoJsonSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A09BAAE24B1FBFE00F63A45 /* GeoJsonSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A09BAC624B1FBFE00F63A45 /* Build configuration list for PBXNativeTarget "GeoJsonSampleTests" */;
+			buildPhases = (
+				8A09BAAB24B1FBFE00F63A45 /* Sources */,
+				8A09BAAC24B1FBFE00F63A45 /* Frameworks */,
+				8A09BAAD24B1FBFE00F63A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A09BAB124B1FBFE00F63A45 /* PBXTargetDependency */,
+			);
+			name = GeoJsonSampleTests;
+			productName = GeoJsonSampleTests;
+			productReference = 8A09BAAF24B1FBFE00F63A45 /* GeoJsonSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A09BAB924B1FBFE00F63A45 /* GeoJsonSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A09BAC924B1FBFE00F63A45 /* Build configuration list for PBXNativeTarget "GeoJsonSampleUITests" */;
+			buildPhases = (
+				8A09BAB624B1FBFE00F63A45 /* Sources */,
+				8A09BAB724B1FBFE00F63A45 /* Frameworks */,
+				8A09BAB824B1FBFE00F63A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A09BABC24B1FBFE00F63A45 /* PBXTargetDependency */,
+			);
+			name = GeoJsonSampleUITests;
+			productName = GeoJsonSampleUITests;
+			productReference = 8A09BABA24B1FBFE00F63A45 /* GeoJsonSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A09BA9124B1FBF500F63A45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Kamal Bhardwaj";
+				TargetAttributes = {
+					8A09BA9824B1FBF500F63A45 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					8A09BAAE24B1FBFE00F63A45 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8A09BA9824B1FBF500F63A45;
+					};
+					8A09BAB924B1FBFE00F63A45 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 8A09BA9824B1FBF500F63A45;
+					};
+				};
+			};
+			buildConfigurationList = 8A09BA9424B1FBF500F63A45 /* Build configuration list for PBXProject "GeoJsonSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A09BA9024B1FBF500F63A45;
+			productRefGroup = 8A09BA9A24B1FBF500F63A45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A09BA9824B1FBF500F63A45 /* GeoJsonSample */,
+				8A09BAAE24B1FBFE00F63A45 /* GeoJsonSampleTests */,
+				8A09BAB924B1FBFE00F63A45 /* GeoJsonSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A09BA9724B1FBF500F63A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A09BAA924B1FBFD00F63A45 /* LaunchScreen.storyboard in Resources */,
+				8A09BAA624B1FBFD00F63A45 /* Assets.xcassets in Resources */,
+				8A09BAA424B1FBF500F63A45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A09BAAD24B1FBFE00F63A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A09BAB824B1FBFE00F63A45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A09BA9524B1FBF500F63A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A09BAA124B1FBF500F63A45 /* ViewController.swift in Sources */,
+				8A09BA9D24B1FBF500F63A45 /* AppDelegate.swift in Sources */,
+				8A09BA9F24B1FBF500F63A45 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A09BAAB24B1FBFE00F63A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A09BAB424B1FBFE00F63A45 /* GeoJsonSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A09BAB624B1FBFE00F63A45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A09BABF24B1FBFE00F63A45 /* GeoJsonSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A09BAB124B1FBFE00F63A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A09BA9824B1FBF500F63A45 /* GeoJsonSample */;
+			targetProxy = 8A09BAB024B1FBFE00F63A45 /* PBXContainerItemProxy */;
+		};
+		8A09BABC24B1FBFE00F63A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A09BA9824B1FBF500F63A45 /* GeoJsonSample */;
+			targetProxy = 8A09BABB24B1FBFE00F63A45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A09BAA224B1FBF500F63A45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A09BAA324B1FBF500F63A45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A09BAA724B1FBFD00F63A45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A09BAA824B1FBFD00F63A45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A09BAC124B1FBFE00F63A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A09BAC224B1FBFE00F63A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A09BAC424B1FBFE00F63A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoJsonSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neophyte.GeoJsonSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A09BAC524B1FBFE00F63A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoJsonSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neophyte.GeoJsonSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8A09BAC724B1FBFE00F63A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoJsonSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neophyte.GeoJsonSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoJsonSample.app/GeoJsonSample";
+			};
+			name = Debug;
+		};
+		8A09BAC824B1FBFE00F63A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoJsonSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neophyte.GeoJsonSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoJsonSample.app/GeoJsonSample";
+			};
+			name = Release;
+		};
+		8A09BACA24B1FBFE00F63A45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoJsonSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neophyte.GeoJsonSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoJsonSample;
+			};
+			name = Debug;
+		};
+		8A09BACB24B1FBFE00F63A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GeoJsonSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Neophyte.GeoJsonSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoJsonSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A09BA9424B1FBF500F63A45 /* Build configuration list for PBXProject "GeoJsonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A09BAC124B1FBFE00F63A45 /* Debug */,
+				8A09BAC224B1FBFE00F63A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A09BAC324B1FBFE00F63A45 /* Build configuration list for PBXNativeTarget "GeoJsonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A09BAC424B1FBFE00F63A45 /* Debug */,
+				8A09BAC524B1FBFE00F63A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A09BAC624B1FBFE00F63A45 /* Build configuration list for PBXNativeTarget "GeoJsonSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A09BAC724B1FBFE00F63A45 /* Debug */,
+				8A09BAC824B1FBFE00F63A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A09BAC924B1FBFE00F63A45 /* Build configuration list for PBXNativeTarget "GeoJsonSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A09BACA24B1FBFE00F63A45 /* Debug */,
+				8A09BACB24B1FBFE00F63A45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A09BA9124B1FBF500F63A45 /* Project object */;
+}
