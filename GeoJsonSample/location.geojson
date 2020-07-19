@@ -1,0 +1,108 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [76.7794, 30.7333]
+            },
+            "properties": {
+                "name": "Chandigarh",
+                "subTitle": "Beautiful city",
+                "website": "https://en.wikipedia.org/wiki/Chandigarh"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [76.7179, 30.7046]
+            },
+            "properties": {
+                "name": "Mohali",
+                "subTitle": "Sahibjada Ajit Singh Nagar",
+                "website": "https://en.wikipedia.org/wiki/Mohali"
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Name": "Punjab Unversity",
+                "subTitle": "Sector 14, Chandigarh",
+                "website": "https://puchd.ac.in"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            76.7685183,
+                            30.7596113
+                        ],
+                        [
+                            76.7679926,
+                            30.7587446
+                        ],
+                        [
+                            76.7662116,
+                            30.7580439
+                        ],
+                        [
+                            76.7666193,
+                            30.7569652
+                        ],
+                        [
+                            76.7684218,
+                            30.7566702
+                        ],
+                        [
+                            76.7684218,
+                            30.7572326
+                        ],
+                        [
+                            76.7691084,
+                            30.7571404
+                        ],
+                        [
+                            76.7690333,
+                            30.7567255
+                        ],
+                        [
+                            76.7702886,
+                            30.7567255
+                        ],
+                        [
+                            76.7705032,
+                            30.7574447
+                        ],
+                        [
+                            76.7710718,
+                            30.7576291
+                        ],
+                        [
+                            76.7703851,
+                            30.7588
+                        ],
+                        [
+                            76.7693981,
+                            30.7586985
+                        ],
+                        [
+                            76.7690548,
+                            30.7592148
+                        ],
+                        [
+                            76.7687222,
+                            30.7590212
+                        ],
+                        [
+                            76.7685183,
+                            30.7596113
+                        ]
+                    ]
+                ]
+            }
+        }
+    ]
+}

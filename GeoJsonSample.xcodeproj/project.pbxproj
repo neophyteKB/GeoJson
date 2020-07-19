@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		8A09BA9D24B1FBF500F63A45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BA9C24B1FBF500F63A45 /* AppDelegate.swift */; };
 		8A09BA9F24B1FBF500F63A45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BA9E24B1FBF500F63A45 /* SceneDelegate.swift */; };
-		8A09BAA124B1FBF500F63A45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BAA024B1FBF500F63A45 /* ViewController.swift */; };
+		8A09BAA124B1FBF500F63A45 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BAA024B1FBF500F63A45 /* MapVC.swift */; };
 		8A09BAA424B1FBF500F63A45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A09BAA224B1FBF500F63A45 /* Main.storyboard */; };
 		8A09BAA624B1FBFD00F63A45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A09BAA524B1FBFD00F63A45 /* Assets.xcassets */; };
 		8A09BAA924B1FBFD00F63A45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A09BAA724B1FBFD00F63A45 /* LaunchScreen.storyboard */; };
 		8A09BAB424B1FBFE00F63A45 /* GeoJsonSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BAB324B1FBFE00F63A45 /* GeoJsonSampleTests.swift */; };
 		8A09BABF24B1FBFE00F63A45 /* GeoJsonSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BABE24B1FBFE00F63A45 /* GeoJsonSampleUITests.swift */; };
+		8A09BACE24B1FD5F00F63A45 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BACD24B1FD5F00F63A45 /* MapPresenter.swift */; };
+		8A09BAD124B359A400F63A45 /* MapConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BAD024B359A400F63A45 /* MapConfigurator.swift */; };
+		8A09BAD724B364B600F63A45 /* StoreAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A09BAD624B364B600F63A45 /* StoreAnnotation.swift */; };
+		8AAE7F8B24C2CB18007187D9 /* location.geojson in Resources */ = {isa = PBXBuildFile; fileRef = 8AAE7F8A24C2CAA3007187D9 /* location.geojson */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +42,7 @@
 		8A09BA9924B1FBF500F63A45 /* GeoJsonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoJsonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A09BA9C24B1FBF500F63A45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A09BA9E24B1FBF500F63A45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8A09BAA024B1FBF500F63A45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8A09BAA024B1FBF500F63A45 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		8A09BAA324B1FBF500F63A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A09BAA524B1FBFD00F63A45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A09BAA824B1FBFD00F63A45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		8A09BABA24B1FBFE00F63A45 /* GeoJsonSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoJsonSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A09BABE24B1FBFE00F63A45 /* GeoJsonSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJsonSampleUITests.swift; sourceTree = "<group>"; };
 		8A09BAC024B1FBFE00F63A45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A09BACD24B1FD5F00F63A45 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		8A09BAD024B359A400F63A45 /* MapConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapConfigurator.swift; sourceTree = "<group>"; };
+		8A09BAD624B364B600F63A45 /* StoreAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreAnnotation.swift; sourceTree = "<group>"; };
+		8AAE7F8A24C2CAA3007187D9 /* location.geojson */ = {isa = PBXFileReference; lastKnownFileType = text; path = location.geojson; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +109,15 @@
 			children = (
 				8A09BA9C24B1FBF500F63A45 /* AppDelegate.swift */,
 				8A09BA9E24B1FBF500F63A45 /* SceneDelegate.swift */,
-				8A09BAA024B1FBF500F63A45 /* ViewController.swift */,
+				8A09BAA024B1FBF500F63A45 /* MapVC.swift */,
+				8A09BACD24B1FD5F00F63A45 /* MapPresenter.swift */,
 				8A09BAA224B1FBF500F63A45 /* Main.storyboard */,
 				8A09BAA524B1FBFD00F63A45 /* Assets.xcassets */,
 				8A09BAA724B1FBFD00F63A45 /* LaunchScreen.storyboard */,
 				8A09BAAA24B1FBFD00F63A45 /* Info.plist */,
+				8A09BAD024B359A400F63A45 /* MapConfigurator.swift */,
+				8A09BAD624B364B600F63A45 /* StoreAnnotation.swift */,
+				8AAE7F8A24C2CAA3007187D9 /* location.geojson */,
 			);
 			path = GeoJsonSample;
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A09BAA924B1FBFD00F63A45 /* LaunchScreen.storyboard in Resources */,
+				8AAE7F8B24C2CB18007187D9 /* location.geojson in Resources */,
 				8A09BAA624B1FBFD00F63A45 /* Assets.xcassets in Resources */,
 				8A09BAA424B1FBF500F63A45 /* Main.storyboard in Resources */,
 			);
@@ -259,9 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A09BAA124B1FBF500F63A45 /* ViewController.swift in Sources */,
+				8A09BAD124B359A400F63A45 /* MapConfigurator.swift in Sources */,
+				8A09BAA124B1FBF500F63A45 /* MapVC.swift in Sources */,
+				8A09BAD724B364B600F63A45 /* StoreAnnotation.swift in Sources */,
 				8A09BA9D24B1FBF500F63A45 /* AppDelegate.swift in Sources */,
 				8A09BA9F24B1FBF500F63A45 /* SceneDelegate.swift in Sources */,
+				8A09BACE24B1FD5F00F63A45 /* MapPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
