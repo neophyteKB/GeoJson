@@ -13,7 +13,7 @@ protocol MainView {
     func setUpMapView()
     func animateMap(to coordinates: CLLocationCoordinate2D)
     func setAnnotations(annotations: [MKAnnotation])
-    func render(overlay: MKOverlay)
+    func render(overlay: MKOverlay, info: Any?)
 }
 
 protocol MapPresenter {
@@ -46,22 +46,32 @@ class MapPresenterImplementation: MapPresenter {
         guard let objs = try? MKGeoJSONDecoder().decode(geoJsonData) as? [MKGeoJSONFeature] else {
             fatalError("Wrong format")
         }
+        
+        
+        // Parse the objects
         objs.forEach { (feature) in
             guard let geometry = feature.geometry.first,
                 let propData = feature.properties else {
                 return;
             }
-            let info = try? JSONDecoder.init().decode(Info.self, from: propData)
-            self.view?.animateMap(to: geometry.coordinate)
             
+            // Check if it is MKPolygon
             if let polygon = geometry as? MKPolygon {
-                self.view?.render(overlay: polygon)
-                self.fetchPolygonCoordinates(polygon: polygon)
+                let polygonInfo = try? JSONDecoder.init().decode(PolygonInfo.self, from: propData)
+                self.view?.render(overlay: polygon,
+                                  info: polygonInfo)
             }
+            
+            // Check if it is MKPolyline
             if let polyline = geometry as? MKPolyline {
-                self.view?.render(overlay: polyline)
+                let polylineInfo = try? JSONDecoder.init().decode(PolylineInfo.self, from: propData)
+                self.view?.render(overlay: polyline,
+                                  info: polylineInfo)
             }
+            
+            // Check if it is MKPointAnnotation
             if let annotation = geometry as? MKPointAnnotation {
+                let info = try? JSONDecoder.init().decode(Info.self, from: propData)
                 let storeAnnotation = StoreAnnotation.init(title: info?.name,
                                                            subtitle: info?.subTitle,
                                                            website: info?.website,

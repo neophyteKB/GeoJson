@@ -111,11 +111,11 @@
 				8A09BA9E24B1FBF500F63A45 /* SceneDelegate.swift */,
 				8A09BAA024B1FBF500F63A45 /* MapVC.swift */,
 				8A09BACD24B1FD5F00F63A45 /* MapPresenter.swift */,
+				8A09BAD024B359A400F63A45 /* MapConfigurator.swift */,
 				8A09BAA224B1FBF500F63A45 /* Main.storyboard */,
 				8A09BAA524B1FBFD00F63A45 /* Assets.xcassets */,
 				8A09BAA724B1FBFD00F63A45 /* LaunchScreen.storyboard */,
 				8A09BAAA24B1FBFD00F63A45 /* Info.plist */,
-				8A09BAD024B359A400F63A45 /* MapConfigurator.swift */,
 				8A09BAD624B364B600F63A45 /* StoreAnnotation.swift */,
 				8AAE7F8A24C2CAA3007187D9 /* location.geojson */,
 			);

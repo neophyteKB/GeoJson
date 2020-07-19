@@ -17,6 +17,8 @@ class MapVC: UIViewController, MainView {
     
     private var mapView: MKMapView!
     private var centerCoordinate = CLLocationCoordinate2D.init(latitude: 76.7794, longitude: 30.7333)
+    private var polygonInfo: PolygonInfo?
+    private var polylineInfo: PolylineInfo?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -47,7 +49,13 @@ extension MapVC {
         self.mapView.setCenter(coordinates, animated: true)
     }
     
-    func render(overlay: MKOverlay) {
+    func render(overlay: MKOverlay, info: Any?) {
+        if let polygonInfo = info as? PolygonInfo {
+            self.polygonInfo = polygonInfo
+        }
+        else if let polylineInfo = info as? PolylineInfo {
+            self.polylineInfo = polylineInfo
+        }
         self.mapView.addOverlay(overlay)
     }
 }
@@ -56,10 +64,17 @@ extension MapVC: MKMapViewDelegate {
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
         if overlay is MKPolygon {
             let polygonView = MKPolygonRenderer(overlay: overlay)
-            polygonView.lineWidth = 2
-            polygonView.fillColor = UIColor.green.withAlphaComponent(0.25)
-            polygonView.strokeColor = UIColor.init(white: 0, alpha: 0.5)
+            polygonView.lineWidth = CGFloat(self.polygonInfo?.strokeWidth ?? 2)
+            polygonView.fillColor = (self.polygonInfo?.fill?.color() ?? UIColor.green).withAlphaComponent(0.25)
+            polygonView.strokeColor = self.polygonInfo?.stroke?.color() ?? UIColor.init(white: 0, alpha: 0.5)
             return polygonView
+        }
+        else if overlay is MKPolyline {
+            let polylineView = MKPolylineRenderer(overlay: overlay)
+            polylineView.lineWidth = CGFloat(self.polylineInfo?.strokeWidth ?? 2)
+            polylineView.strokeColor = self.polylineInfo?.stroke?.color() ?? UIColor.red
+            polylineView.lineCap = .round
+            return polylineView
         }
         return MKOverlayRenderer.init()
     }
